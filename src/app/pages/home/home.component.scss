@@ -1,6 +1,18 @@
-.home{
+.home-background {
+    background: url(/assets/auth/login/background.jpg) center center/cover no-repeat fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.mat-toolbar{
+    justify-content: right;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    align-content: center;  
 }
